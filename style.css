@@ -242,7 +242,6 @@
             color: rgba(255, 255, 255, 0.8);
         }
 
-        /* Projects Section */
         .projects-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -307,7 +306,6 @@
             border: 1px solid rgba(255, 107, 107, 0.5);
         }
 
-        /* Education Section */
         .education-timeline {
             position: relative;
             max-width: 800px;
@@ -378,7 +376,6 @@
             box-shadow: 0 0 0 4px rgba(255, 107, 107, 0.3);
         }
 
-        /* Contact Section */
         .contact-container {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -483,8 +480,7 @@
             transform: translateY(-2px);
             box-shadow: 0 8px 20px rgba(255, 107, 107, 0.4);
         }
-        
-         /* Footer */
+ 
         footer {
             background: rgba(0, 0, 0, 0.2);
             text-align: center;
@@ -494,7 +490,6 @@
             z-index: 10;
         }
 
-        /* Animations */
         @keyframes fadeInUp {
             from {
                 opacity: 0;
@@ -569,7 +564,6 @@
             }
         }
 
-        /* Floating elements across the page */
         .floating-element {
             position: fixed;
             pointer-events: none;
@@ -618,7 +612,6 @@
             }
         }
 
-        /* Mobile Navigation */
         @media (max-width: 768px) {
             .hamburger {
                 display: flex;
