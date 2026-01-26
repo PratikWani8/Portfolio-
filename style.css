@@ -112,7 +112,6 @@
             left: 0;
         }
 
-        /* Hero Section */
         .hero {
             height: 100vh;
             display: flex;
@@ -171,7 +170,6 @@
             box-shadow: 0 8px 25px rgba(255, 107, 107, 0.6);
         }
 
-        /* Sections */
         section {
             padding: 100px 0;
             opacity: 0;
@@ -204,7 +202,6 @@
             border-radius: 2px;
         }
 
-        /* Skills Section */
         .skills-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
