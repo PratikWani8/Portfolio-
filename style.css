@@ -202,6 +202,27 @@
             border-radius: 2px;
         }
 
+        /* ================= ABOUT ================= */
+
+.about-text {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgba(255,255,255,0.9);
+    line-height: 1.8;
+    opacity: 0;
+    transform: scale(0.9);
+    transition: all 1s ease;
+}
+
+/* About Animation */
+
+#about.visible .about-text {
+    opacity: 1;
+    transform: scale(1);
+}
+
         .skills-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
