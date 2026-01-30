@@ -202,8 +202,6 @@
             border-radius: 2px;
         }
 
-        /* ================= ABOUT ================= */
-
 .about-text {
     max-width: 800px;
     margin: 0 auto;
@@ -215,8 +213,6 @@
     transform: scale(0.9);
     transition: all 1s ease;
 }
-
-/* About Animation */
 
 #about.visible .about-text {
     opacity: 1;
